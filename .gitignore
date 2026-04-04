@@ -1,0 +1,54 @@
+# 🔐 Environment variables
+
+.env
+*.env
+
+# 🐍 Python cache
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# 📦 Virtual environment
+
+nl2sql/
+venv/
+env/
+ENV/
+
+# 🗄️ Database files
+
+*.db
+*.sqlite3
+
+# 📄 Logs
+
+*.log
+
+# 📊 Test outputs / results
+
+test_results.json
+RESULTS.md
+
+# 🧪 Jupyter Notebook checkpoints
+
+.ipynb_checkpoints/
+
+# 🛠️ VS Code settings
+
+.vscode/
+
+# 🖥️ OS files
+
+.DS_Store
+Thumbs.db
+
+# 📦 Build / dist
+
+build/
+dist/
+*.egg-info/
+
+# 🔒 Secrets / API keys
+
+.env*
